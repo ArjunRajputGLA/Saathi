@@ -14,7 +14,7 @@ export default function AboutPage() {
     }, 3000);
     return () => clearInterval(interval);
   }, []);
-
+  
   const features = [
     {
       icon: FileText,
